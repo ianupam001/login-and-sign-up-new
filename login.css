@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background:#010101; 
+        
+}
+
+.box h1{
+    color: white;
+    font-weight: 100;
+    
+}
+.box{
+    padding: 40px;
+    width: 200px;
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    transform: translate(-50,-50);
+    text-align: left;
+}
+.box input[type="text"],.boxinput[type="Username"],.box input[type="Password"]{
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    text-align: left;
+    border: 2px solid lightgreen;
+    padding: 10px 20px;
+    width: 200px;
+    outline: none;
+    color: lightgreen;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type="text"]:focus,.box input[type="Password"]:focus{
+    width: 280px;
+    border-color:aqua;
+}
+
